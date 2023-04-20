@@ -1,0 +1,46 @@
+
+:root{
+  --main-color: rgb(100, 156, 145);
+  --text-color: #fefefe;
+}
+@font-face {
+  font-family: 'Sofia', cursive;
+  src: url(../FormatacaoFonteGoogle/fonts/Sofia-Regular.ttf);
+}
+
+body{
+  background-color: var(--main-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+  font-family: 'Sofia', cursive;
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+.subtitulo{
+  font-family: 'Sofia', cursive;
+  font-size: 22;
+  color: var(--text-color);
+}
+
+.teste{
+  margin: 0;
+  background-color: black;
+  color: var(--text-color);
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
